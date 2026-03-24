@@ -1,0 +1,36 @@
+/* Custom DLSU Variables */
+:root {
+    --dlsu-green: #115740; /* Official Archer Green */
+    --dlsu-light-green: #1b8a66;
+    --dlsu-gold: #F2A900;
+}
+
+/* Custom Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Customizing Bootstrap Buttons */
+.btn-success {
+    background-color: var(--dlsu-green);
+    border-color: var(--dlsu-green);
+    transition: all 0.3s ease; /* Rubric: Requires transitions/animations */
+}
+
+.btn-success:hover {
+    background-color: var(--dlsu-light-green);
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Custom Navbar Styling */
+.navbar-custom {
+    background-color: var(--dlsu-green);
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white;
+}
+.navbar-custom .nav-link:hover {
+    color: var(--dlsu-gold);
+}
